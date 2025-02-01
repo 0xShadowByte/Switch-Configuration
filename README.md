@@ -10,6 +10,7 @@ Basic VLANs access points
 - Learned how to configure switches through CLI command to get to configuration mode
 - Learned how to assign different VLANs and Ports to the switch through CLI command
 - Learned how to use command prompt on the PC to ping the other ones to see if they can communicate. This is especially important if you have two or more computers on a switch that belongs to two different departments.
+- Learned other switch verification commands to use
 
 ### Tools Used
 
@@ -62,17 +63,9 @@ Basic VLANs access points
 
 ![image](https://github.com/user-attachments/assets/1c13d549-3a6c-4280-8995-826e7bea4c5b)
 
-*TIP 1: If you don't remember the next command prompt then press "?" and it'll provide you a list*
-
-![image](https://github.com/user-attachments/assets/30650e7f-0ed9-4f9b-80ef-c3ff952029f0)
-
 *Ref 12: Applying Fa/0/1 to access port vlan 2. As you can see the orange circle means that the switch is resetting to the new configuration*
 
 ![image](https://github.com/user-attachments/assets/ed10f578-856c-4ea6-b14a-e6d2da38a6f2)
-
-*TIP 2: Always remember to save your configurations incase the switch turns off. Use the command "exit" to go back to "Switch#" and from there type in "Switch#copy running-config startup-config, press enter two times to confirm. If you see [OK] it means your configuration was saved correctly - Though this is what the exam wants, in the real world use the short cut "Switch#wr" and it'll do the same thing.*
-
-![image](https://github.com/user-attachments/assets/59c51390-6075-48b7-b81a-567d40e0def9)
 
 *Ref 13: Now we do the same for the Accounting computer and assign it vlan3*
 
@@ -94,3 +87,18 @@ Basic VLANs access points
 
 ![image](https://github.com/user-attachments/assets/50ba3da1-1148-4883-b115-c5c2c8db722d)
 
+*TIP 1: If you don't remember the next command prompt then press "?" and it'll provide you a list*
+
+![image](https://github.com/user-attachments/assets/30650e7f-0ed9-4f9b-80ef-c3ff952029f0)
+
+*TIP 2: Always remember to save your configurations incase the switch turns off. Use the command "exit" to go back to "Switch#" and from there type in "Switch#copy running-config startup-config, press enter two times to confirm. If you see [OK] it means your configuration was saved correctly - Though this is what the exam wants, in the real world use the short cut "Switch#wr" and it'll do the same thing.*
+
+![image](https://github.com/user-attachments/assets/59c51390-6075-48b7-b81a-567d40e0def9)
+
+*TIP 3: Other command prompts to use to verify configuration on the switch. Use "Switch#int fa0/1 switchport" to give you the information about it to see if its enabled or disabled, what kind of ports it has, and see what vlan its on*
+
+![image](https://github.com/user-attachments/assets/6237b4a0-8408-4894-b1d8-4f31fbd774d3)
+
+*TIP 4: To show only information on a specific vlan. i.e "Switch#sh vlan id 2"
+
+![image](https://github.com/user-attachments/assets/90afb61c-cb6f-4a81-9d1f-23c8f253ac98)
