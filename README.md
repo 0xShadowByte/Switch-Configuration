@@ -2,7 +2,7 @@
 
 ### Objective
   
-Basic VLANs access points
+Switch configuration is crucial for optimizing network performance, enhancing security, and enabling efficient traffic management. It helps prevent unauthorized access, reduces network congestion through VLANs, and ensures redundancy with protocols like STP. Mastering switch configuration is essential for troubleshooting, securing, and maintaining a reliable IT infrastructure.
 
 ### Skills Learned
 
