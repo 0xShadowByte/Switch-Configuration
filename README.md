@@ -9,6 +9,7 @@ Basic VLANs access points
 - Basic VLANs access points commands and verification
 - Learned how to configure switches through CLI command to get to configuration mode
 - Learned how to assign different VLANs and Ports to the switch through CLI command
+- Learned how to use command prompt on the PC to ping the other ones to see if they can communicate. This is especially important if you have two or more computers on a switch that belongs to two different departments.
 
 ### Tools Used
 
@@ -73,4 +74,23 @@ Basic VLANs access points
 
 ![image](https://github.com/user-attachments/assets/59c51390-6075-48b7-b81a-567d40e0def9)
 
+*Ref 13: Now we do the same for the Accounting computer and assign it vlan3*
+
+![image](https://github.com/user-attachments/assets/8d3ac770-ead3-406d-9f2e-570c7449ae45)
+
+*Ref 14: Type in command "Switch(config-if)#do sh vlan" to see if the port configurations were done correctly and they are*
+
+![image](https://github.com/user-attachments/assets/c3cb263f-3cc2-4b36-9f9a-cd1756b9e6c5)
+
+*Ref 15: Go back to (PC0) > command prompt > ping 192.168.1.2 to see if they can communicate with each other but they can't because they're both on two different VLAN, which is what we want*
+
+![image](https://github.com/user-attachments/assets/f104a16a-01b8-46cf-9677-383c53567597)
+
+*Ref 16: Connecting another computer to the switch and repeating the similar processes as before*
+
+![image](https://github.com/user-attachments/assets/b192780d-b7ca-412d-8a55-8c175dc4ea1e)
+
+*Ref 17: Once the process is complete Accounting-VLAN should have two ports assigned to it*
+
+![image](https://github.com/user-attachments/assets/50ba3da1-1148-4883-b115-c5c2c8db722d)
 
